@@ -1,0 +1,29 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.dish-img {
+  border: 1px solid black;
+  width: 350px;
+  height: 300px;
+}
+.dish-style {
+  border: 2px solid black;
+  width: 355px;
+  display: inline-grid;
+  margin: 10px;
+}
+.checked {
+  color: orange;
+}
+
+.rating {
+  display: block;
+}
+.price {
+  float: left;
+  padding-left: 50px;
+  padding-right: 100px;
+}
+.start {
+  float: right;
+}
