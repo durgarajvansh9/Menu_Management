@@ -8,7 +8,7 @@ import {
 import auth from "../middleware/authorization.js";
 const dishRouter = express.Router();
 
-dishRouter.post("/addDish", auth, addDish);
+dishRouter.post("/addDish", addDish);
 dishRouter.get("/getDish", getDish);
 dishRouter.put("/updateDish/:id", auth, updateDish);
 dishRouter.delete("/deleteDish/:id", auth, deleteDish);

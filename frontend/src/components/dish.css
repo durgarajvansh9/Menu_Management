@@ -1,16 +1,22 @@
 body {
   font-family: "Times New Roman", Times, serif;
+  background-image: url("images.jpg");
 }
 .dish-img {
-  border: 1px solid black;
-  width: 350px;
-  height: 300px;
+  /* border: 1px solid black; */
+  width: 348px;
+  height: 250px;
+
 }
 .dish-style {
-  border: 2px solid black;
-  width: 355px;
+  /* border: 2px solid black; */
+  width: 350px;
+  height: 450px;
   display: inline-grid;
-  margin: 10px;
+  justify-content: center;
+}
+.dish-style h4{
+  float: left;
 }
 .checked {
   color: orange;
@@ -24,6 +30,10 @@ body {
   padding-left: 50px;
   padding-right: 100px;
 }
-.start {
+/* .start {
   float: right;
+} */
+
+.dish-style button{
+  margin-left: 25%;
 }
